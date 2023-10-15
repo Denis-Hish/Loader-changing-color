@@ -1,7 +1,6 @@
 body {
    padding: 0;
    margin: 0;
-   /* box-sizing: border-box; */
    font-family: montserrat;
 }
 
@@ -10,8 +9,7 @@ body {
    justify-content: center;
    align-items: center;
    min-height: 100vh;
-   /* text-align: center; */
-   background-color: #000; /*! !!!!!! !*/
+   background-color: #161616;
 }
 
 .loader .ring {
@@ -51,8 +49,7 @@ body {
 .loader span {
    color: #737373;
    font-size: 20px;
-   letter-spacing: 1px;
-   line-height: 200px; /*? is it need? */
+   letter-spacing: 1.2px;
    animation: text 3s ease-in-out infinite;
 }
 
